@@ -1,4 +1,5 @@
 cd ./dist
+echo "" > .nojekll
 git init
 git checkout -B master
 git add -A
