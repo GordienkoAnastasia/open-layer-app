@@ -1,5 +1,5 @@
 cd ./dist
-echo "" > .nojekll
+echo "" > .nojekyll
 git init
 git checkout -B master
 git add -A
