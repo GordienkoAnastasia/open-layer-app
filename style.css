@@ -34,10 +34,20 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 45px;
 
-	color: #000000;
+	color: #ffffff;
+}
+.font_1 {
+	text-align: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 45px;
+
+	color: #66888b;
 }
 .map_row {
 	display: flex;
@@ -88,5 +98,5 @@ body {
 	height: 100%;
 }
 #data {
-	background: #026670;
+	background: #66888b;
 }
