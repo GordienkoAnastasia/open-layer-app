@@ -95,6 +95,18 @@ body {
 .dropdown-content a:hover {background-color: rgb(255, 255, 255);}
 .dropdown:hover 
 .dropdown-content {display: block;}
+.link {
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: normal;
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (16 - 12) + 12px);
+	color: #000000;
+	padding: 2% 0% 3% 0%;
+	text-decoration: none;
+}
+.link-1 {
+	padding: 2% 0% 3% 0%;
+}
 #bloch_1 {
 	padding: 3%;
 	background: #80b3b7;
@@ -110,6 +122,7 @@ body {
 	background: #80b3b7;
 }
 #bloch_4 {
+	padding: 3% 0% 0% 0%;
 	flex-grow: 1;
 	background: #BCF2E3;
 }
